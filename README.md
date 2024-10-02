@@ -59,6 +59,6 @@ The sentiment analysis model is powered by Hugging Face's pipeline API, which si
 
 ## Additional Notes
 - Ensure you have Node.js and npm installed on your machine for the frontend setup.
-
+# Few screenshots
 ![Alt Text](image.png)
 ![Alt Text](image2.png)
