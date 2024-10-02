@@ -11,15 +11,54 @@ The sentiment analysis model is powered by Hugging Face's pipeline API, which si
 
 
 1. **Run the api**:
-python -m venv venv
-source venv/bin/activate  # For Linux/MacOS
-venv\Scripts\activate     # For Windows
-pip install -r requirements.txt
-uvicorn main:app --reload
+# Project Setup Instructions
 
-Navigate to the frontend directory:
-cd sentiment-analysis-frontend
-npm install
-npm start
+## Setting Up the Backend
+
+1. Create a virtual environment:
+    ```bash
+    python -m venv venv
+    ```
+
+2. Activate the virtual environment:
+   - For Linux/MacOS:
+     ```bash
+     source venv/bin/activate
+     ```
+   - For Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+
+3. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Run the application with Uvicorn:
+    ```bash
+    uvicorn main:app --reload
+    ```
+
+## Setting Up the Frontend
+
+1. Navigate to the frontend directory:
+    ```bash
+    cd sentiment-analysis-frontend
+    ```
+
+2. Install the frontend dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the frontend application:
+    ```bash
+    npm start
+    ```
+
+## Additional Notes
+- Ensure you have Node.js and npm installed on your machine for the frontend setup.
+
 ![Alt Text](image.png)
 ![Alt Text](image2.png)
