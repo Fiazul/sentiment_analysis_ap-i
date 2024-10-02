@@ -21,4 +21,5 @@ Navigate to the frontend directory:
 cd sentiment-analysis-frontend
 npm install
 npm start
-![Alt Text](path/to/your/image.png)
+![Alt Text](image.png)
+![Alt Text](image2.png)
